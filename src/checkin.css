@@ -1,0 +1,137 @@
+.attendance-container {
+    padding: 20px;
+  }
+  
+  .start-attendance, .end-attendance {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .dropdown {
+    margin-left: 10px;
+  }
+  
+  .btn-start {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .email-section {
+    margin-top: 20px;
+  }
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .email-input {
+    margin-top: 10px;
+  }
+  
+  .attendance-logs {
+    margin-top: 20px;
+  }
+  
+  .logs-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr;
+    gap: 10px;
+    border-collapse: collapse;
+  }
+  
+  .logs-header, .logs-row {
+    display: contents; /* Makes grid items span the full width of the grid */
+  }
+  
+  .header-item {
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .row-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+
+
+
+
+
+.attendance-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .dropdown {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .btn-start, .btn-end {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .btn-end {
+    background-color: #f44336;
+  }
+  
+  .btn-start:hover, .btn-end:hover {
+    background-color: #45a049;
+  }
+  
+  .email-section {
+    margin-bottom: 15px;
+  }
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .email-input input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .scan-logs-heading {
+    margin-top: 20px;
+  }
+  
+  .scan-logs {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .scan-log {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+  }
+  
