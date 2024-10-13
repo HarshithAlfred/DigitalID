@@ -5,7 +5,7 @@ import { getAnalytics } from "firebase/analytics";
 import { firebaseConfig } from './firebase';
 import { collection, query } from "firebase/firestore";
 import { getFirestore , doc, updateDoc, onSnapshot, setDoc } from "firebase/firestore";
-import './checkin.css'
+import './styles/checkin.css'
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
